@@ -6,50 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
     <div>
         <div>
             <form>
-                <input readonly value="0" min="0" id="screen" type="text">
+                <input readonly value="0" min="0" id="scr" type="text">
             </form>
         </div>
 
         <div>
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
+            <input type="button" onclick="specialFunction('sin')" value="sin">
+            <input type="button" onclick="specialFunction('cos')" value="cos">
+            <input type="button" onclick="specialFunction('tan')" value="tan">
+            <input type="button" onclick="specialFunction('log')" value="log">
         </div>
         <br>
         <div>
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
+            <input type="button" onclick="targetValue(1)" value="1">
+            <input type="button" onclick="targetValue(2)" value="2">
+            <input type="button" onclick="targetValue(3)" value="3">
+            <input type="button" onclick="targetValue(4)" value="4">
         </div>
         <br>
 
         <div>
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
+            <input type="button"onclick="targetValue(5)" value="5">
+            <input type="button"onclick="targetValue(6)" value="6">
+            <input type="button"onclick="targetValue(7)" value="7">
+            <input type="button"onclick="targetValue(8)" value="8">
         </div>
         <br>
         <div>
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
+            <input type="button" onclick="targetValue(9)" value="9">
+            <input type="button" onclick="targetValue(0)" value="0">
+            <input type="button" onclick="targetValue('+')" value="+">
+            <input type="button" onclick="targetValue('*')" value="*">
         </div>
         <br>
         <div>
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
-            <input type="button" />
+            <input type="button" onclick="targetValue('-')" value="-">
+            <input type="button" onclick="targetValue('/')" value="/">
+            <input type="button" onclick="del1()" value="del">
+            <input type="button" onclick="totalValue()" value="=">
         </div>
     </div>
 
