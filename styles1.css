@@ -3,3 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#calculator {
+  width: 300px;
+  justify-content: center;
+  background-color: rgb(159, 161, 142);
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: -140px;
+}
+
+#scr {
+  width: 250px;
+  height: 50px;
+  font-style: italic;
+  justify-content: center;
+  margin-left: 5px;
+  
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: repeat(4, 62.5px);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.btn input {
+  min-height: 25px;
+}
+
+h1{
+  margin: auto;
+  /* width: 30px; */
+}
